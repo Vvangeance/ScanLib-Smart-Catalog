@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admin-Login-ScanLib Smart Catalog</title>
+    <link class="x-icon" rel="icon" href="C:\Users\Vangeance\Pictures\logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <a href="#" class="logo">
+        <img src="C:\Users\Vangeance\Pictures\logo.png" alt="logo">
+        <h2>ScanLib Smart Catalog</h2>
+    </a>
+    <div class="topRow">
+        <button id="button-openform"><p><i class="bi bi-person-circle"></i><span class="non-italic"> Login | Sign up</span></p></button>
+    </div>
+    <!-- Login form begins -->
+    <section class="admin">
+        <div class="container-login">
+            <div class="closeButton"> <i class="bi bi-x-lg"></i></div>
+            <form action="#">
+                <label for="username">Username(Registration No.)</label>
+                <input type="text" name="username" id="username" placeholder="Enter your User Name">
+
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password"  placeholder="Enter your Password">
+                <div class="loginbuttons">
+                    <button class="button-login" type="submit" onclick="func()">Login</button>
+                    <button class="button-login-signup">Sign Up</button>
+                </div>
+                <a class="forgetPWLink" href="">Forgot Password?</a>
+            </form>
+        </div>
+
+
+        <div class="container-signup">
+            <div class="closeButtonSignup"> <i class="bi bi-x-lg"></i></div>
+            <form action="">
+
+                <label for="firstname">First Name <span class="required">*</span></label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter your First Name" autocomplete="given-name">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your Last Name" autocomplete="family-name">
+
+                <label for="email">Email(School email) <span class="required">*</span></label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" autocomplete="off">
+
+                <label for="username">Username(Registration No.) <span class="required">*</span></label>
+                <input type="text" name="username" id="username" placeholder="Enter your Username">
+
+                <label for="set-password">Set Password <span class="required">*</span></label>
+                <input type="password" name="set-password" id="set-password" placeholder="Enter the Password">
+
+                <label for="confirm-password">Confirm Password <span class="required">*</span></label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+
+                <label for="contact">Mobile No.1 <span class="required">*</span></label>
+                <input type="number" name="address" id="contact" placeholder="Contact Line 1">
+
+                <label for="contact">Mobile No. 2</label>
+                <input type="number" name="address" id="contact" placeholder="Contact Line 2">
+
+                <label for="pincode">Pincode <span class="required">*</span></label>
+                <input type="number" name="pincode" id="pincode" placeholder="Enter the Pincode">
+
+                <button id="button-signup">Sign Up</button>
+            </form>
+        </div>
+        <div class="forgetPW">
+            <div class="closeButtonForgetPW"> <i class="bi bi-x-lg"></i></div>
+            <form action="">
+                <label for="username">Username(Registration No.)</label>
+                <input type="text" name="username" id="username" placeholder="Enter the Username">
+
+                <label for="email">Email(School email)</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+                <button class="forgetPWBtn">Submit</button>
+                <p>Note - Password is sent to registered Email</p>
+            </form>
+        </div>
+    </section>
+    <section class="about">
+        <h1>About Us</h1>
+        <p style="font-weight: bold">
+            ScanLib Smart Catalog is a leading platform...
+        </p>
+        <div class="about-info">
+            <div class="about-img">
+                <img src="C:\Users\Vangeance\Pictures\Screenshot 2024-03-13 223157.jpg">
+            </div>
+            <div>
+                <p>
+                    Welcome to our website, where we harness the power of Optical Character Recognition technology to revolutionize the way information is accessed and processed. At ScanLib Smart Catalog, we are passionate about unlocking the potential of OCR to streamline workflows, enhance accessibility, and empower individuals and businesses alike.
+
+                    Our dedicated team of experts is committed to developing innovative OCR solutions tailored to meet the diverse needs of our users. Whether you're digitizing documents, extracting data, or improving search capabilities, our cutting-edge OCR technology delivers unparalleled accuracy and efficiency.
+
+                    Driven by a mission to simplify complex tasks and maximize productivity, we continuously strive to push the boundaries of OCR technology through research, development, and collaboration. With a focus on user experience and reliability, we ensure that our solutions are intuitive, robust, and scalable.
+
+                    Join us on our journey to harness the power of OCR and unlock new possibilities in the digital world. Experience the difference with ScanLib Smart Catalog as we pave the way towards a more efficient and connected future.
+
+                    Thank you for choosing ScanLib Smart Catalog as your partner in OCR innovation.
+                </p>
+                <button>Read More...</button>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <h1>Meet Our Team</h1>
+        <div class="team-cards">
+
+            <!-- Cards here -->
+            <!-- Card 1 -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="C:\Users\Vangeance\Pictures\8besrtl.jpg" alt="Founder">
+                </div>
+                <div class="card-info">
+                    <h2 class="card-name">Ronald</h2>
+                    <p class="card-role">Founder</p>
+                    <p class="card-email"><a href="mailto:skiff12@tutanota.com">Send Mail</a></p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="C:\Users\Vangeance\Pictures\Screenshot 2024-03-17 093728.jpg" alt="Co-Founder">
+                </div>
+                <div class="card-info">
+                    <h2 class="card-name">Abdirizack</h2>
+                    <p class="card-role">Co-Founder</p>
+                    <p class="card-email"><a href="mailto:abdirizackrashid008@gamil.com">Send Mail</a></p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©ScanLib Smart Catalog 2024. All Rights Reserved.</p>
+    </footer>
+    <!-- login form ends -->
+   
+    <script src="Login.js"></script>
+</body>
+</html>
